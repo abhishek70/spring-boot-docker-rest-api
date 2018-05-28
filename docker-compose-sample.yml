@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  db:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 
+      MYSQL_DATABASE: 
+      MYSQL_USER: 
+      MYSQL_PASSWORD: 
+    ports:
+      - "3306:3306"
+
+  spring-rest-api:
+    build: ./rest-api
+    depends_on:
+       - db
+    restart: always
+    environment:
+      - ACTIVE_PROFILE=dev
+      - DB_HOST=
+      - DB_PORT=3306
+      - DB_USER=
+      - DB_PASS=
+      - DB_NAME=
+    links:
+      - db:mysql
+    ports:
+      - "9090:9090"
