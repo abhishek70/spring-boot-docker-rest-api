@@ -22,7 +22,12 @@ Steps for executing :
 7. After executing above steps without any errors and docker containers are up and running, open the browser and navigate to below url:
     
 		  http://localhost:9090/swagger-ui.html#/
-      
+
+**DEMO**
+Deployed to Heroku Cloud: 
+
+		  https://polar-thicket-63660.herokuapp.com/swagger-ui.html
+
 
 **Troubleshooting**
 1. Any errors related to "connection link failure" is seen while starting/running containers then it might be due to the  MySQL hostname use in the application database connection. Run the below command to get the hostname of the MySQL and replace it
