@@ -41,6 +41,7 @@ Steps for executing :
 3. http://mapstruct.org/
 4. https://swagger.io/tools/swagger-ui/
 5. https://spring.io/guides/gs/rest-service/
+6. https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku
 
 
 
