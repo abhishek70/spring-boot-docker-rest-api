@@ -24,3 +24,21 @@ Steps for executing :
 		  http://localhost:9090/swagger-ui.html#/
       
 
+**Troubleshooting**
+1. Any errors related to "connection link failure" is seen while starting/running containers then it might be due to the  MySQL hostname use in the application database connection. Run the below command to get the hostname of the MySQL and replace it
+
+  		  docker inspect {CONTAINER-ID}
+		
+
+**Reference**
+1. https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+2. https://docs.docker.com/compose/
+3. http://mapstruct.org/
+4. https://swagger.io/tools/swagger-ui/
+5. https://spring.io/guides/gs/rest-service/
+
+
+
+
+
+
