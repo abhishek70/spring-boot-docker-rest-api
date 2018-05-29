@@ -1,5 +1,5 @@
 # spring-boot-docker-rest-api
-Building RESTFul API Services using spring boot and MySQL with containerization using Docker
+Building RESTFul API Services using spring boot, MySQL and Swagger Documentation with containerization using Docker
 
 Steps for executing :
 
