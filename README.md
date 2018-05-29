@@ -24,7 +24,7 @@ Steps for executing :
 		  http://localhost:9090/swagger-ui.html#/
 
 **DEMO**
-Deployed to Heroku Cloud: 
+ - Deployed to Heroku Cloud: 
 
 		  https://polar-thicket-63660.herokuapp.com/swagger-ui.html
 
